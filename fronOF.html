@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mecânica do Carlos</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" integrity="sha512-H8yHbIXP6LwF5jTQp7VVjoaUTxuSS9E8kewtJF+3ZKeW5CBKN4wJf/UZJjKxKuBzbsi0DlD4BkLJu+QvV68rnA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+        }
+
+        .container {
+            width: 80%;
+            margin: 20px auto;
+        }
+
+        header {
+            background-color: #333;
+            color: #fff;
+            padding: 10px 0;
+        }
+
+        header .container {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+
+        header nav ul {
+            list-style-type: none;
+            padding: 0;
+        }
+
+        header nav ul li {
+            display: inline;
+            margin-left: 20px;
+        }
+
+        header nav ul li a {
+            color: #fff;
+            text-decoration: none;
+        }
+
+        section {
+            padding: 20px 0;
+        }
+
+        table {
+            width: 100%;
+            border-collapse: collapse;
+        }
+
+        th, td {
+            border: 1px solid #ddd;
+            padding: 8px;
+            text-align: left;
+        }
+
+        th {
+            background-color: #f2f2f2;
+        }
+
+        footer {
+            background-color: #333;
+            color: #fff;
+            text-align: center;
+            padding: 10px 0;
+        }
+
+        /* Estilos para a galeria de fotos */
+        .gallery {
+            display: flex;
+            justify-content: space-between;
+            flex-wrap: wrap;
+        }
+
+        .gallery img {
+            width: 30%; /* Para ajustar o tamanho das imagens */
+            margin-bottom: 20px; /* Adiciona um espaço entre as imagens */
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <div class="container">
+            <h1>Mecânica do Carlos</h1>
+            <nav>
+                <ul>
+                    <li><a href="#servicos">Serviços</a></li>
+                    <li><a href="#contato">Contato</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <section id="servicos">
+        <div class="container">
+            <h2>Serviços</h2>
+            <table>
+                <thead>
+                    <tr>
+                        <th>Serviço</th>
+                        <th>Preço</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>Troca de óleo</td>
+                        <td>R$ 50,00</td>
+                    </tr>
+                    <tr>
+                        <td>Troca de pneus</td>
+                        <td>R$ 80,00 (por pneu)</td>
+                    </tr>
+                    <tr>
+                        <td>Reparo de motor</td>
+                        <td>R$ 200,00</td>
+                    </tr>
+                    <tr>
+                        <td>Alinhamento</td>
+                        <td>R$ 60,00</td>
+                    </tr>
+                    <tr>
+                        <td>Balanceamento</td>
+                        <td>R$ 40,00</td>
+                    </tr>
+                    <tr>
+                        <td>Revisão geral</td>
+                        <td>R$ 150,00</td>
+                    </tr>
+                    <!-- Adicione mais linhas conforme necessário -->
+                </tbody>
+            </table>
+        </div>
+    </section>
+
+  
+
+    <section id="galeria">
+        <div class="container">
+            <h2>Galeria de Fotos</h2>
+            <div class="gallery">
+                <img src="https://media.istockphoto.com/id/1285071153/pt/foto/smiling-happy-bearded-tattooed-worker-in-overalls-standing-next-to-truck-with-arms-crossed.jpg?s=1024x1024&w=is&k=20&c=ceN3NfhT4TeSFG-n19IExVLufrXIuDVxiqfJIAyc2fU=" alt="Oficina Mecânica do Carlos">
+                <img src="https://media.istockphoto.com/id/1289143731/pt/foto/happy-black-auto-mechanic-working-at-car-workshop-and-looking-at-camera.jpg?s=1024x1024&w=is&k=20&c=bhf-sQCzlcuATOgxAhLezuj54yRx-QFFXewWV1-i0b8=" alt="Oficina Mecânica do Carlos">
+                <img src="https://media.istockphoto.com/id/1347150429/pt/foto/professional-mechanic-working-on-the-engine-of-the-car-in-the-garage.jpg?s=1024x1024&w=is&k=20&c=Z0avjRsxDER0Mj7qJGGMMz1SpHZTjKa3nA3iwS6vzUk=" alt="Oficina Mecânica do Carlos">
+            </div>
+        </div>
+    </section>
+
+    <section id="contato">
+        <div class="container">
+            <h2>Contato <i class="fab fa-whatsapp"></i></h2>
+            <p>Entre em contato conosco para mais informações:</p>
+            <p>Telefone: (XX) XXXX-XXXX</p>
+            <p>Email: contato@mecanicadocarlos.com</p>
+        </div>
+    </section>
+
+    <footer>
+        <div class="container">
+            <p>&copy; 2024 Mecânica do Carlos. Todos os direitos reservados.</p>
+        </div>
+    </footer>
+</body>
+</html>
